@@ -1,26 +1,78 @@
+body {
+  background-color: #fcfcfc; }
+
 .main_content {
   font-family: "Arial", "Liberation Sans", sans serif;
   font-size: 1.2rem;
   font-weight: 400;
-  width: 900px;
+  width: 1000px;
   margin: auto;
+  margin-top: 10px;
+  margin-bottom: 50px;
   color: #333333;
-  background-color: #fcfcfc; }
+  background-color: #fcfcfc;
+  text-align: justify; }
+  @media (max-width: 999px) {
+    .main_content {
+      width: 750px;
+      font-size: 1rem; } }
+
+.ib {
+  display: inline-block;
+  vertical-align: top; }
+
+.hidden {
+  display: none; }
 
 header {
-  font-size: 1.8rem; }
+  font-size: 1.8rem;
+  text-align: center; }
 
 h1, h2 {
   font-size: 1.4rem; }
 
+h1:after, h2:after {
+  content: " :"; }
+
 footer {
-  width: 100%;
+  width: inherit;
   position: fixed;
   bottom: 0;
   text-align: center;
-  background-color: inherit; }
+  background-color: inherit;
+  z-index: 9999; }
 
 .top {
-  display: inline-block; }
+  width: inherit;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-align-items: stretch;
+  align-items: stretch; }
+  .top .infos {
+    flex: 1; }
+    .top .infos h1 {
+      margin-top: 0; }
+
+.profil {
+  background-color: #666666;
+  width: 156px;
+  height: 156px;
+  line-height: 153px;
+  text-align: center; }
+  .profil img {
+    vertical-align: middle; }
+
+.profil:hover {
+  background-color: #b6e6fc;
+  transition: background-color 2s; }
 
 /*# sourceMappingURL=main.css.map */

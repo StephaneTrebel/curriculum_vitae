@@ -1,5 +1,12 @@
 $whitey: hsla(0, 0%, 99%, 1);
 $blackey: hsla(0, 0%, 20%, 1);
+$light-blue: hsla(199, 92%, 85%, 1);
+$profil-size: 150px;
+$profil-border: 3px;
+$profil-wrap: $profil-size + 2*$profil-border;
+$profil-lh: $profil-size + $profil-border;
+
+body {background-color: $whitey;}
 
 .main_content {
   font: {
@@ -7,29 +14,87 @@ $blackey: hsla(0, 0%, 20%, 1);
     size: 1.2rem;
     weight: 400;
   }
-  width: 900px;
+  width: 1000px;
   margin: auto;
+  margin-top: 10px;
+  margin-bottom: 50px;
   color: $blackey;
   background-color: $whitey;
+  @media (max-width: 999px) {
+    width: 750px;
+    font-size: 1rem;    
+  }
+  text-align: justify;
 }
 
+//General classes*******************************************************
+.ib {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.hidden {
+  display: none;
+}
+
+//Section style*********************************************************
 header {
   font-size: 1.8rem;
+  text-align: center;
 }
 
 h1, h2 {
   font-size: 1.4rem;
 }
 
+h1:after, h2:after {
+  content: " :";
+}
+
 footer {
-  width: 100%;
+  width: inherit;
   position: fixed;
   bottom: 0;
   text-align: center;
   background-color: inherit;
+  z-index: 9999;
 }
 
+//Dedicated classes*****************************************************
 .top {
-  display: inline-block;
+  width: inherit;
+  
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-align-items: stretch;
+  align-items: stretch;
+  
+  .infos { 
+    flex: 1; 
+    h1 {margin-top: 0;}
+  }
 }
 
+.profil {
+  background-color: lighten($blackey, 20%);
+  width: $profil-wrap;
+  height: $profil-wrap;
+  line-height: $profil-lh;
+  text-align:center;
+  img {vertical-align: middle;}
+}
+
+.profil:hover {
+  background-color: $light-blue;
+  transition: background-color 2s;
+}
