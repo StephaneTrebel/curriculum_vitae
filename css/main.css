@@ -28,8 +28,13 @@ header {
   font-size: 1.8rem;
   text-align: center; }
 
-h1, h2 {
-  font-size: 1.4rem; }
+h1 {
+  font-size: 1.5rem;
+  color: #02a6f2; }
+
+h2 {
+  font-size: 1.4rem;
+  color: #0287cf; }
 
 h1:after, h2:after {
   content: " :"; }
@@ -41,6 +46,9 @@ footer {
   text-align: center;
   background-color: inherit;
   z-index: 9999; }
+
+em {
+  font-variant: small-caps; }
 
 .top {
   width: inherit;
@@ -74,5 +82,8 @@ footer {
 .profil:hover {
   background-color: #b6e6fc;
   transition: background-color 2s; }
+
+.infos > ul {
+  list-style-type: none; }
 
 /*# sourceMappingURL=main.css.map */

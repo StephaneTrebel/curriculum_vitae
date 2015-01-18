@@ -1,6 +1,8 @@
 $whitey: hsla(0, 0%, 99%, 1);
 $blackey: hsla(0, 0%, 20%, 1);
 $light-blue: hsla(199, 92%, 85%, 1);
+$blue: hsla(199, 98%, 48%, 1);
+$dark-blue: hsla(201, 98%, 41%, 1);
 $profil-size: 150px;
 $profil-border: 3px;
 $profil-wrap: $profil-size + 2*$profil-border;
@@ -43,10 +45,16 @@ header {
   text-align: center;
 }
 
-h1, h2 {
-  font-size: 1.4rem;
+h1 {
+  font-size: 1.5rem;
+  color: $blue;
 }
 
+h2 {
+  font-size: 1.4rem;
+  color: $dark-blue;
+}
+ 
 h1:after, h2:after {
   content: " :";
 }
@@ -58,6 +66,10 @@ footer {
   text-align: center;
   background-color: inherit;
   z-index: 9999;
+}
+
+em {
+  font-variant: small-caps;
 }
 
 //Dedicated classes*****************************************************
@@ -97,4 +109,8 @@ footer {
 .profil:hover {
   background-color: $light-blue;
   transition: background-color 2s;
+}
+
+.infos > ul {
+  list-style-type: none;
 }
