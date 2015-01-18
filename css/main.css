@@ -1,12 +1,16 @@
 .main_content {
-  font-family: "Liberation Sans";
+  font-family: "Arial", "Liberation Sans", sans serif;
   font-size: 1.2rem;
   font-weight: 400;
   width: 900px;
   margin: auto;
+  color: #333333;
   background-color: #fcfcfc; }
 
 header {
+  font-size: 1.8rem; }
+
+h1, h2 {
   font-size: 1.4rem; }
 
 footer {
@@ -15,5 +19,8 @@ footer {
   bottom: 0;
   text-align: center;
   background-color: inherit; }
+
+.top {
+  display: inline-block; }
 
 /*# sourceMappingURL=main.css.map */

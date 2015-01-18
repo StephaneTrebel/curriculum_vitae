@@ -1,17 +1,23 @@
-$not-so-white: hsla(0, 0%, 99%, 1);
+$whitey: hsla(0, 0%, 99%, 1);
+$blackey: hsla(0, 0%, 20%, 1);
 
 .main_content {
   font: {
-    family: "Liberation Sans";
+    family: "Arial", "Liberation Sans", sans serif;
     size: 1.2rem;
     weight: 400;
   }
   width: 900px;
   margin: auto;
-  background-color: $not-so-white;
+  color: $blackey;
+  background-color: $whitey;
 }
 
 header {
+  font-size: 1.8rem;
+}
+
+h1, h2 {
   font-size: 1.4rem;
 }
 
@@ -21,5 +27,9 @@ footer {
   bottom: 0;
   text-align: center;
   background-color: inherit;
+}
+
+.top {
+  display: inline-block;
 }
 
