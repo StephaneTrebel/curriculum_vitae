@@ -1,3 +1,19 @@
+.main_content {
+  font-family: "Liberation Sans";
+  font-size: 1.2rem;
+  font-weight: 400;
+  width: 900px;
+  margin: auto;
+  background-color: #fcfcfc; }
 
+header {
+  font-size: 1.4rem; }
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  background-color: inherit; }
 
 /*# sourceMappingURL=main.css.map */

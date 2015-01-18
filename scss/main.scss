@@ -1,0 +1,25 @@
+$not-so-white: hsla(0, 0%, 99%, 1);
+
+.main_content {
+  font: {
+    family: "Liberation Sans";
+    size: 1.2rem;
+    weight: 400;
+  }
+  width: 900px;
+  margin: auto;
+  background-color: $not-so-white;
+}
+
+header {
+  font-size: 1.4rem;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  background-color: inherit;
+}
+
