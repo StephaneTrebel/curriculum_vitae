@@ -119,5 +119,6 @@
     </footer>
   
   </div> <!-- main_content -->
+  <?php include_once("php/analyticstracking.php") ?>
 </body>
 </html>
