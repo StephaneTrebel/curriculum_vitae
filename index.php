@@ -1,3 +1,13 @@
+<?php
+$php_folder = "./php/";
+$php_extension = ".php";
+$cv = filter_input(INPUT_GET , "cv" , FILTER_SANITIZE_STRING);
+$cdp_amoa = "cdp_amoa";
+$dev_web = "dev_web";
+if (!isset($cv) || empty($cv)) {
+  $cv = $dev_web;
+}
+?>
 <!DOCTYPE html>
 
 <html>
@@ -7,7 +17,7 @@
   <!--<link rel="stylesheet" href="./font-awesome-4.2.0/css/font-awesome.min.css"/>-->
   <link rel="stylesheet" href="./css/main.css"/>
   <!--<link rel="icon" type="image/png" href="./resources/favicon.png" />-->
-</head> 
+</head>
 <body>
   <div class="main_content">
     <header class="hidden">
@@ -23,101 +33,65 @@
           <li>&nbsp;</li>
           <li>Mobile : 06 81 62 69 40</li>
           <li>Mèl : <a href="mailto:stephane.trebel@gmail.com">stephane.trebel@gmail.com<a></li>
-          <li>33 ans (26 Octobre 1981), marié, 3 enfants.</li>
+          <li>33 ans, marié, 3 enfants.</li>
         </ul>
       </div>
       <div class="profil ib">
         <img src="./resources/profil.jpg" alt="Photo de Profil">
       </div>
     </section>
+    <div class="tabs">
+      <a
+        class=<?php echo "'tabs_header ". (($cv == $cdp_amoa) ? "active'" : "'"); ?>
+        href=<?php echo "?cv=" . $cdp_amoa ?>>
+        Chef de projets AMOA
+      </a>
+      <a
+        class=<?php echo "'tabs_header " . (($cv == $dev_web) ? "active'" : "'"); ?>
+        href=<?php echo "?cv=" . $dev_web ?>>
+        Développeur Web Front/Back
+      </a>
+    </div>
+
+    <div class="wrapper_cv">
+      <?php
+        switch ($cv) {
+          case $cdp_amoa:
+            include $php_folder . $cdp_amoa . $php_extension;
+            break;
+          case $dev_web:
+            include $php_folder . $dev_web . $php_extension;
+            break;
+          default:
+            echo "La page demandée n'est pas accessible";
+        }
+      ?>
+
+      <section>
+        <h1>Langues</h1>
+        <ul>
+          <li>Anglais : Bilingue.</li>
+        </ul>
+      </section>
 
 
-    <section>
-      <h1>Formation</h1>
-      <ul>
-        <li>2000 – 2001 : Licence d’Informatique obtenue avec la mention ‘Assez Bien’ à l’Université d’Évry Val d’Essonne</li>
-        <li>1998 – 2000 : DEUG MIAS obtenu avec la mention ‘Assez Bien’ à l’Université d’Évry Val d’Essonne</li>
-        <li>1998 : Baccalauréat S Option Mathématiques obtenu avec la mention ‘Bien’</li>
-      </ul>
-    </section>
-    
+      <section>
+        <h1>Activités Extraprofessionnelles</h1>
+        <ul>
+          <li>Administration des sites internet <a href="http://www.stephanetrebel.com"><em>Stephane Trebel</em></a> et <a href="http://www.espritpaleo.com"><em>Esprit Paleo</em></a></li>
+          <li>Photographie (et administration d’une <a href="http://www.stephanetrebel.com/galerie">galerie en ligne</a>)</li>
+          <li>Pratique de la Guitare</li>
+        </ul>
+      </section>
 
-    <section>
-      <h1>Expérience professionnelle</h1>
-      <ul>
-        <li>
-          <h2>Novembre 2011 – Décembre 2014</h2>
-          En tant que chef de projets Supply Chain pour la société <em>Siplast</em>, spécialisée dans la fabrication de produits d'étanchéité en bâtiment, j'ai procédé à :
-          <ul>
-            <li>La mise en place d'une solution de gestion d'entrepôt logistique par code-barres intégrée à l'ERP Infor M3. Un projet de l'ordre de 300k€ sur deux ans et deux usines en France ;</li>
-            <li>La refonte de la Supply Chain dans l'ERP M3 par différents projets d'évolution du système sur les domaines métiers : Achat, Production, Logistique et Gestion Commerciale ;</li>
-            <li>L'intégration d'une solution de dématérialisation de factures Achat de matières premières et de frais généraux (ComFlow AIP) avec le système ERP M3.</li>
-          </ul>
-        </li>
-        <li>
-          <h2>Novembre 2007 – Novembre 2011</h2>
-          Employé en tant que Chef de Projets Movex pour la société <em>Boucheron</em>, maison dédiée à la fabrication de produits de luxe (bijouterie, joaillerie, parfums, etc.), j’ai été amené à être responsable de :
-          <ul>
-            <li>La gestion d’un projet de mise en place de l’ERP Movex v12.5 dans la filiale Japonaise. D’un coût total de 140k€ ayant couru sur 8 mois, ce projet aura nécessité l’évolution de l’infrastructure technique au siège de la société ainsi que l’évolution du SI pour prendre en compte les spécificités japonaises (langue, comptabilité spécifique, etc.) ;</li>
-            <li>La gestion d’un projet de refonte de la gestion des informations de chaque produit, en collaboration avec les services Marketing et Commercial. Le but était de permettre une meilleure restitution de la hiérarchie produit et de gérer les informations spécifiques à la Joaillerie et à la Haute-Joaillerie (gestion des certificat de pierres précieuses, du poids d’or réel, etc.) ;</li>
-            <li>L’encadrement des prestataires de services venus assurer l’intégration de spécifiques afin d’adapter au fur et à mesure l’ERP au plus près des besoins utilisateurs ;</li>
-            <li>L’évolution de l’exploitation de l’infrastructure technique AS/400 par la mise en place de la solution Axway Synchrony (SOPRA) ;</li>
-          </ul>
-        </li>
-        <li>
-          <h2>Mai 2004 – Novembre 2007</h2>
-          Employé en tant que Chargé de Maintenance ERP pour la société <em>Autodistribution</em> (grande distribution de pièces automobiles) j’ai eu la responsabilité de :
-          <ul>
-            <li>L’intégration technique de la solution ERP Movex v12.2 RPG au sein d'<em>Autodistribution</em> (Analyse et développement de spécifiques en RPG 3.0) ;</li>
-            <li>La supervision technique du déploiement de la solution chez les 70 filiales en France ;</li>
-            <li>La supervision de la hotline de niveau 2 (analyse fonctionnelle et résolution logicielle) des problèmes rencontrés par les utilisateurs ;</li>
-            <li>L’encadrement des prestataires de services venus assurer l’intégration de spécifiques afin d’adapter l’ERP sur les domaines clés de l'entreprise (négoce, gestion du référentiel article, flux logistiques, comptabilité centralisée, EDI,   gestion des ateliers de réparation SAV).</li>
-          </ul>
-        </li>
-        <li>
-          <h2>Juillet 2001 – Mai 2004</h2>
-          Employé en tant qu’Analyste/Programmeur pour la SSII Gesys :
-          <ul>
-            <li>Formation à la programmation en RPG(GAP) sur AS/400 et initiation à l’ERP Movex d’Intentia Consulting (devenu Lawson, puis Infor par la suite) ;</li>
-            <li>Participation à plusieurs projets concernant les divers domaines fonctionnels d’une entreprise (négoce, achats, logistique, comptabilité/finances, SAV et ateliers, production, etc.) pour les sociétés Brevidex, Ricoh, <em>Autodistribution</em>, Marie-Brizard, Intersport, et Clemessy.</li>
-          </ul>
-        </li>
-      </ul>
-    </section>
+    </div> <!-- wrapper_cv -->
 
-
-    <section>
-      <h1>Compétences Informatiques</h1>
-      <ul>
-        <li>Outils bureautiques : Office, Access, mais aussi LibreOffice, LaTeX ;</li>
-        <li>Langages maîtrisés : RPG, C/C++, HTML5, CSS3, PHP5, jS/jQuery, SQL</li>
-        <li>Langages approchés : Java, .NET</li>
-        <li>Maîtrise des environnements Windows Server, IBM AS/400 , UNIX/Linux.</li>
-      </ul>
-    </section>
-
-
-    <section>
-      <h1>Langues</h1>
-      <ul>
-        <li>Anglais : Bilingue.</li>
-      </ul>
-    </section>
-
-
-    <section>
-      <h1>Activités Extraprofessionnelles</h1>
-      <ul>
-        <li>Administration des sites internet <a href="http://www.stephanetrebel.com"><em>Stephane Trebel</em></a> et <a href="http://www.espritpaleo.com"><em>Esprit Paleo</em></a></li>
-        <li>Photographie (et administration d’une <a href="http://www.stephanetrebel.com/galerie">galerie en ligne</a>)</li>
-        <li>Pratique de la Guitare</li>
-      </ul>
-    </section>
-  
     <footer>
       Copyright 2015. Tous droits réservés
     </footer>
-  
+
+    <script src="js/main.js"></script>
+
   </div> <!-- main_content -->
   <?php include_once("php/analyticstracking.php") ?>
 </body>

@@ -86,4 +86,41 @@ em {
 .infos > ul {
   list-style-type: none; }
 
+/*.experience {
+  border-top: 2px solid $dark-blue;
+  border-left: 2px solid $dark-blue;
+  border-right: 2px solid $dark-blue;
+}
+
+.formation {
+  border-left: 2px solid $dark-blue;
+  border-right: 2px solid $dark-blue;
+}
+
+.competences {
+  border-left: 2px solid $dark-blue;
+  border-right: 2px solid $dark-blue;
+  border-bottom: 2px solid $dark-blue;
+}*/
+.wrapper_cv {
+  border: 2px solid #0287cf;
+  padding-left: 2.5%;
+  padding-right: 2.5%; }
+
+/* TABS MANAGEMENT *****************************************************/
+.tabs {
+  display: inline; }
+
+.tabs_header {
+  text-decoration: none;
+  padding-left: 5px;
+  padding-right: 5px; }
+  .tabs_header:hover, .tabs_header:focus {
+    background-color: #0287cf; }
+
+.active {
+  border-style: solid solid none solid;
+  border-width: 2px;
+  border-color: #0287cf; }
+
 /*# sourceMappingURL=main.css.map */

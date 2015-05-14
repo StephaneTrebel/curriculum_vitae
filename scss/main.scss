@@ -3,6 +3,8 @@ $blackey: hsla(0, 0%, 20%, 1);
 $light-blue: hsla(199, 92%, 85%, 1);
 $blue: hsla(199, 98%, 48%, 1);
 $dark-blue: hsla(201, 98%, 41%, 1);
+
+$background-color : $whitey;
 $profil-size: 150px;
 $profil-border: 3px;
 $profil-wrap: $profil-size + 2*$profil-border;
@@ -24,7 +26,7 @@ body {background-color: $whitey;}
   background-color: $whitey;
   @media (max-width: 999px) {
     width: 750px;
-    font-size: 1rem;    
+    font-size: 1rem;
   }
   text-align: justify;
 }
@@ -54,7 +56,7 @@ h2 {
   font-size: 1.4rem;
   color: $dark-blue;
 }
- 
+
 h1:after, h2:after {
   content: " :";
 }
@@ -75,7 +77,7 @@ em {
 //Dedicated classes*****************************************************
 .top {
   width: inherit;
-  
+
   -ms-box-orient: horizontal;
   display: -webkit-box;
   display: -moz-box;
@@ -83,16 +85,16 @@ em {
   display: -moz-flex;
   display: -webkit-flex;
   display: flex;
-  
+
   -webkit-justify-content: space-around;
   justify-content: space-around;
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
   -webkit-align-items: stretch;
   align-items: stretch;
-  
-  .infos { 
-    flex: 1; 
+
+  .infos {
+    flex: 1;
     h1 {margin-top: 0;}
   }
 }
@@ -113,4 +115,55 @@ em {
 
 .infos > ul {
   list-style-type: none;
+}
+
+/*.experience {
+  border-top: 2px solid $dark-blue;
+  border-left: 2px solid $dark-blue;
+  border-right: 2px solid $dark-blue;
+}
+
+.formation {
+  border-left: 2px solid $dark-blue;
+  border-right: 2px solid $dark-blue;
+}
+
+.competences {
+  border-left: 2px solid $dark-blue;
+  border-right: 2px solid $dark-blue;
+  border-bottom: 2px solid $dark-blue;
+}*/
+
+.wrapper_cv {
+  border: 2px solid $dark-blue;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+/* TABS MANAGEMENT *****************************************************/
+$tabs_border: $dark-blue;
+$tabs_thickness : 2px;
+
+
+.tabs {
+  display: inline;
+}
+
+.tabs_header {
+  text-decoration: none;
+  padding-left: 5px;
+  padding-right: 5px;
+  &:hover, &:focus {
+    background-color: $tabs_border;
+  }
+}
+
+.inactive {
+
+}
+
+.active {
+  border-style: solid solid none solid;
+  border-width: $tabs_thickness;
+  border-color: $tabs_border;
 }

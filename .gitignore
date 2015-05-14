@@ -6,3 +6,4 @@ scss/.sass-cache/*
 node_modules/*
 *~
 php/config.php
+.gitignore*
