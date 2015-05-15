@@ -83,27 +83,6 @@ footer {
 .infos > ul {
   list-style-type: none; }
 
-/*.experience {
-  border-top: 2px solid $dark-blue;
-  border-left: 2px solid $dark-blue;
-  border-right: 2px solid $dark-blue;
-}
-
-.formation {
-  border-left: 2px solid $dark-blue;
-  border-right: 2px solid $dark-blue;
-}
-
-.competences {
-  border-left: 2px solid $dark-blue;
-  border-right: 2px solid $dark-blue;
-  border-bottom: 2px solid $dark-blue;
-}*/
-.wrapper_cv {
-  border: 2px solid #02a6f2;
-  padding-left: 2.5%;
-  padding-right: 2.5%; }
-
 /* TABS MANAGEMENT *****************************************************/
 /*##############################
   Tabs management for content
@@ -112,19 +91,29 @@ footer {
   $tabs_active_foreground: Foreground color for active tabs, best set to
     background color for contrast
   $tabs_spacing : spacing between tabs
+  $tabs_border_radius : size of the border radius for all tabs
+  $tabs_padding: left-right padding for all tabs and content
+  $tabs_transition_duration : duration for fore/background color animation  on hover/focus
 
 ################################*/
 /* Default values */
+.tabs_wrapper {
+  border: 2.5px solid #02a6f2;
+  padding-left: 2.5%;
+  padding-right: 2.5%; }
+
 .tabs {
   display: inline; }
 
 .tabs_header {
   text-decoration: none;
   padding: 2.5px 2.5px 0 2.5px;
-  margin: 2.5px 2.5px 2.5px 0; }
+  margin: 2.5px 2.5px 2.5px 0;
+  border-radius: 3px 3px 0 0; }
   .tabs_header:hover, .tabs_header:focus {
     color: #fcfcfc;
-    background-color: #02a6f2; }
+    background-color: #02a6f2;
+    transition: background-color 0.5s, color 0.5s; }
 
 .inactive {
   color: #02a6f2; }

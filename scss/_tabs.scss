@@ -5,13 +5,25 @@
   $tabs_active_foreground: Foreground color for active tabs, best set to
     background color for contrast
   $tabs_spacing : spacing between tabs
+  $tabs_border_radius : size of the border radius for all tabs
+  $tabs_padding: left-right padding for all tabs and content
+  $tabs_transition_duration : duration for fore/background color animation  on hover/focus
 
 ################################*/
 
 /* Default values */
-// $tabs_active_background : #000000;
-// $tabs_active_foreground : #ffffff;
-// $tabs_spacing : 2px;
+$tabs_active_background : #ff0000 !default;
+$tabs_active_foreground : #ffffff  !default;
+$tabs_spacing : 2.5px !default;
+$tabs_border_radius : 3px  !default;
+$tabs_padding : 2.5% !default;
+$tabs_transition_duration: 0.5s;
+
+.tabs_wrapper {
+  border: $tabs_spacing solid $tabs_active_background;
+  padding-left: $tabs_padding;
+  padding-right: $tabs_padding;
+}
 
 .tabs {
   display: inline;
@@ -21,9 +33,11 @@
   text-decoration: none;
   padding : $tabs_spacing $tabs_spacing 0 $tabs_spacing;
   margin : $tabs_spacing $tabs_spacing $tabs_spacing 0;
+  border-radius: $tabs_border_radius $tabs_border_radius 0 0;
   &:hover, &:focus {
     color: $tabs_active_foreground;
     background-color: $tabs_active_background;
+    transition: background-color $tabs_transition_duration, color $tabs_transition_duration;
   }
 }
 

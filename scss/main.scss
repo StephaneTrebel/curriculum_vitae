@@ -116,31 +116,8 @@ em {
   list-style-type: none;
 }
 
-/*.experience {
-  border-top: 2px solid $dark-blue;
-  border-left: 2px solid $dark-blue;
-  border-right: 2px solid $dark-blue;
-}
-
-.formation {
-  border-left: 2px solid $dark-blue;
-  border-right: 2px solid $dark-blue;
-}
-
-.competences {
-  border-left: 2px solid $dark-blue;
-  border-right: 2px solid $dark-blue;
-  border-bottom: 2px solid $dark-blue;
-}*/
-
-.wrapper_cv {
-  border: 2px solid $header_color;
-  padding-left: 2.5%;
-  padding-right: 2.5%;
-}
 
 /* TABS MANAGEMENT *****************************************************/
 $tabs_active_background : $header_color;
 $tabs_active_foreground : $background_color;
-$tabs_spacing : 2.5px;
 @import 'tabs';

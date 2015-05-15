@@ -40,7 +40,7 @@ if (!isset($cv) || empty($cv)) {
         <img src="./resources/profil.jpg" alt="Photo de Profil">
       </div>
     </section>
-    
+
     <div class="tabs">
       <a
         class=<?php echo "'tabs_header ". (($cv == $cdp_amoa) ? "active'" : "inactive'"); ?>
@@ -54,7 +54,7 @@ if (!isset($cv) || empty($cv)) {
       </a>
     </div>
 
-    <div class="wrapper_cv">
+    <div class="tabs_wrapper">
       <?php
         switch ($cv) {
           case $cdp_amoa:
