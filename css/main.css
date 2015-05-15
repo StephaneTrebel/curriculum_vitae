@@ -34,7 +34,7 @@ h1 {
 
 h2 {
   font-size: 1.4rem;
-  color: #0287cf; }
+  color: #02a6f2; }
 
 h1:after, h2:after {
   content: " :"; }
@@ -46,9 +46,6 @@ footer {
   text-align: center;
   background-color: inherit;
   z-index: 9999; }
-
-em {
-  font-variant: small-caps; }
 
 .top {
   width: inherit;
@@ -71,7 +68,7 @@ em {
       margin-top: 0; }
 
 .profil {
-  background-color: #666666;
+  background-color: white;
   width: 156px;
   height: 156px;
   line-height: 153px;
@@ -80,7 +77,7 @@ em {
     vertical-align: middle; }
 
 .profil:hover {
-  background-color: #b6e6fc;
+  background-color: #02a6f2;
   transition: background-color 2s; }
 
 .infos > ul {
@@ -103,24 +100,37 @@ em {
   border-bottom: 2px solid $dark-blue;
 }*/
 .wrapper_cv {
-  border: 2px solid #0287cf;
+  border: 2px solid #02a6f2;
   padding-left: 2.5%;
   padding-right: 2.5%; }
 
 /* TABS MANAGEMENT *****************************************************/
+/*##############################
+  Tabs management for content
+  $tabs_active_background: Background color for active tabs, best set to
+    headers color for contrast
+  $tabs_active_foreground: Foreground color for active tabs, best set to
+    background color for contrast
+  $tabs_spacing : spacing between tabs
+
+################################*/
+/* Default values */
 .tabs {
   display: inline; }
 
 .tabs_header {
   text-decoration: none;
-  padding-left: 5px;
-  padding-right: 5px; }
+  padding: 2.5px 2.5px 0 2.5px;
+  margin: 2.5px 2.5px 2.5px 0; }
   .tabs_header:hover, .tabs_header:focus {
-    background-color: #0287cf; }
+    color: #fcfcfc;
+    background-color: #02a6f2; }
+
+.inactive {
+  color: #02a6f2; }
 
 .active {
-  border-style: solid solid none solid;
-  border-width: 2px;
-  border-color: #0287cf; }
+  color: #fcfcfc;
+  background-color: #02a6f2; }
 
 /*# sourceMappingURL=main.css.map */

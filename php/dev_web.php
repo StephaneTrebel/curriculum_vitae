@@ -4,14 +4,12 @@
     <ul>
       <li>
         <h2>Janvier 2015 – Aujourd'hui</h2>
-        <strong>Auto-Entreprise Pr<em>e</em>MIS</strong>, spécialisée dans le consulting en informatique
+        Auto-Entreprise <strong>Pr<em>e</em>MIS</strong>, spécialisée dans le consulting en informatique
         <ul>
           <li>Création et administration du site EspritPaleo.com</li>
           <li>Création d'une application web "KraBS" de gestion de budget</li>
           <li>Auto-formation sur HTML5, CSS3, SASS/SCSS, jS et PHP5</li>
         </ul>
-      </li>
-      <li>
       </li>
     </ul>
   </section>
@@ -29,9 +27,9 @@
     <h1>Compétences Informatiques</h1>
     <ul>
       <li>Outils bureautiques : Office, Access, mais aussi LibreOffice, LaTeX ;</li>
-      <li>Langages maîtrisés : HTML5, CSS3, PHP5, jS/jQuery, SQL</li>
-      <li>Langages approchés : Java, .NET</li>
-      <li>Maîtrise des environnements Windows Server, IBM AS/400 , UNIX/Linux.</li>
+      <li>Technologies maîtrisées : HTML5, CSS3, PHP5, jS/jQuery, MySQL/MariaDB, Apache</li>
+      <li>Technologies approchées : Java, .NET</li>
+      <li>Bonne expérience des environnements Windows Server, IBM AS/400 , UNIX/Linux.</li>
     </ul>
   </section>
 

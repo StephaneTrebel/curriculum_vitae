@@ -1,0 +1,37 @@
+/*##############################
+  Tabs management for content
+  $tabs_active_background: Background color for active tabs, best set to
+    headers color for contrast
+  $tabs_active_foreground: Foreground color for active tabs, best set to
+    background color for contrast
+  $tabs_spacing : spacing between tabs
+
+################################*/
+
+/* Default values */
+// $tabs_active_background : #000000;
+// $tabs_active_foreground : #ffffff;
+// $tabs_spacing : 2px;
+
+.tabs {
+  display: inline;
+}
+
+.tabs_header {
+  text-decoration: none;
+  padding : $tabs_spacing $tabs_spacing 0 $tabs_spacing;
+  margin : $tabs_spacing $tabs_spacing $tabs_spacing 0;
+  &:hover, &:focus {
+    color: $tabs_active_foreground;
+    background-color: $tabs_active_background;
+  }
+}
+
+.inactive {
+  color: $tabs_active_background;
+}
+
+.active {
+  color: $tabs_active_foreground;
+  background-color: $tabs_active_background;
+}

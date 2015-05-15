@@ -33,21 +33,22 @@ if (!isset($cv) || empty($cv)) {
           <li>&nbsp;</li>
           <li>Mobile : 06 81 62 69 40</li>
           <li>Mèl : <a href="mailto:stephane.trebel@gmail.com">stephane.trebel@gmail.com<a></li>
-          <li>33 ans, marié, 3 enfants.</li>
+          <li>33 ans</li>
         </ul>
       </div>
       <div class="profil ib">
         <img src="./resources/profil.jpg" alt="Photo de Profil">
       </div>
     </section>
+    
     <div class="tabs">
       <a
-        class=<?php echo "'tabs_header ". (($cv == $cdp_amoa) ? "active'" : "'"); ?>
+        class=<?php echo "'tabs_header ". (($cv == $cdp_amoa) ? "active'" : "inactive'"); ?>
         href=<?php echo "?cv=" . $cdp_amoa ?>>
         Chef de projets AMOA
       </a>
       <a
-        class=<?php echo "'tabs_header " . (($cv == $dev_web) ? "active'" : "'"); ?>
+        class=<?php echo "'tabs_header " . (($cv == $dev_web) ? "active'" : "inactive'"); ?>
         href=<?php echo "?cv=" . $dev_web ?>>
         Développeur Web Front/Back
       </a>
