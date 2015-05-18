@@ -13,6 +13,7 @@
 
 /* Default values */
 $tabs_active_background : #ff0000 !default;
+$tabs_inactive_background : lighten($tabs_active_background, 40%);
 $tabs_active_foreground : #ffffff  !default;
 $tabs_spacing : 2.5px !default;
 $tabs_border_radius : 3px  !default;
@@ -43,6 +44,7 @@ $tabs_transition_duration: 0.5s;
 
 .inactive {
   color: $tabs_active_background;
+  background-color: $tabs_inactive_background;
 }
 
 .active {

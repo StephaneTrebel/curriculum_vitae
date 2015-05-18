@@ -4,7 +4,7 @@
     <ul>
       <li>
         <h2>Novembre 2011 – Décembre 2014</h2>
-        <strong>Chef de projets AMOA</strong> (domaine Supply Chain) pour la société <em>Siplast</em>, spécialisée dans la fabrication de produits d'étanchéité en bâtiment
+        <strong>Chef de projets <span title="Assistance à Maîtrise d'Ouvrage" class="keyword">AMOA</span></strong> (domaine Supply Chain) pour la société <em>Siplast</em>, spécialisée dans la fabrication de produits d'étanchéité en bâtiment
         <ul>
           <li>Mise en place d'une <strong>solution de gestion d'entrepôt logistique par code-barres</strong> intégrée à l'ERP M3. Budget d'environ 300k€, durée de deux ans</li>
           <li>Refonte des processus de la Supply Chain (Achat, Production, Logistique et Gestion Commerciale)</li>
@@ -13,7 +13,7 @@
       </li>
       <li>
         <h2>Novembre 2007 – Novembre 2011</h2>
-        <strong>Chef de Projets AMOA/MOE</strong> pour la société <em>Boucheron</em>, maison dédiée à la fabrication de produits de luxe (bijouterie, joaillerie, parfums, etc.)
+        <strong>Chef de Projets <span title="Assistance à Maîtrise d'Ouvrage" class="keyword">AMOA</span>/<span title="Maîtrise d'Oeuvre" class="keyword">MOE</span></strong> pour la société <em>Boucheron</em>, maison dédiée à la fabrication de produits de luxe (bijouterie, joaillerie, parfums, etc.)
         <ul>
           <li>Mise en place de l’ERP Movex v12.5 dans la filiale Japonaise
             <ul>
@@ -22,7 +22,7 @@
               <li>Evolution du SI pour prendre en compte les spécificités japonaises (langue, comptabilité spécifique, etc.)</li>
             </ul>
           </li>
-          <li>Refonte de la gestion des informations produit, en collaboration avec les services Marketing et Commercial. Objectif: Permettre une meilleure restitution de la hiérarchie produit et de gérer les informations spécifiques à la Joaillerie et à la Haute-Joaillerie (gestion des certificat de pierres précieuses, du poids d’or réel, etc.)</li>
+          <li>Refonte des informations produit afin de permettre une meilleure restitution des informations spécifiques à la Joaillerie (certificats de pierres précieuses, poids d’or réel, etc.)</li>
           <li>Encadrement opérationnel de prestataires de services pour l’intégration des modifications de l'ERP</li>
           <li>Evolution de l’exploitation de l’infrastructure technique AS/400 par la mise en place de la solution Axway XOS/XOC (SOPRA)</li>
         </ul>

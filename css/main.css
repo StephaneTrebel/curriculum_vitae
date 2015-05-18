@@ -11,7 +11,8 @@ body {
   margin-bottom: 50px;
   color: #333333;
   background-color: #fcfcfc;
-  text-align: justify; }
+  text-align: justify;
+  line-height: 1.5rem; }
   @media (max-width: 999px) {
     .main_content {
       width: 750px;
@@ -83,6 +84,9 @@ footer {
 .infos > ul {
   list-style-type: none; }
 
+.keyword {
+  text-decoration: underline wavy #ff5757; }
+
 /* TABS MANAGEMENT *****************************************************/
 /*##############################
   Tabs management for content
@@ -116,7 +120,8 @@ footer {
     transition: background-color 0.5s, color 0.5s; }
 
 .inactive {
-  color: #02a6f2; }
+  color: #02a6f2;
+  background-color: #c2ebfe; }
 
 .active {
   color: #fcfcfc;

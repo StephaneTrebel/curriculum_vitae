@@ -45,7 +45,7 @@ if (!isset($cv) || empty($cv)) {
       <a
         class=<?php echo "'tabs_header ". (($cv == $cdp_amoa) ? "active'" : "inactive'"); ?>
         href=<?php echo "?cv=" . $cdp_amoa ?>>
-        Chef de projets AMOA
+        Chef de projets ERP
       </a>
       <a
         class=<?php echo "'tabs_header " . (($cv == $dev_web) ? "active'" : "inactive'"); ?>

@@ -28,6 +28,7 @@ body {background-color: $whitey;}
     font-size: 1rem;
   }
   text-align: justify;
+  line-height: 1.5rem;
 }
 
 //General classes*******************************************************
@@ -116,8 +117,12 @@ em {
   list-style-type: none;
 }
 
+.keyword {
+  text-decoration: underline wavy $light-red;
+}
+
 
 /* TABS MANAGEMENT *****************************************************/
-$tabs_active_background : $header_color;
+$tabs_active_background : lighten($header_color, 0%);
 $tabs_active_foreground : $background_color;
 @import 'tabs';
