@@ -8,5 +8,5 @@
   <li>Mobile : 06 81 62 69 40</li>
   <li>33 ans</li>
 -->
-  <li><a href="mailto:stephane.trebel@gmail.com">stephane.trebel@gmail.com<a></li>
+  <li><a href="mailto:stephane.trebel@gmail.com">stephane.trebel@gmail.com</a></li>
 </ul>

@@ -22,10 +22,8 @@ if (!isset($cv) || empty($cv)) {
   <!--<link rel="icon" type="image/png" href="./resources/favicon.png" />-->
 </head>
 <body>
-  <div class="main_content">
-    <header class="hidden">
-        Curriculum Vitae
-    </header>
+  <header>
+  <div class="top_bar"></div>
     <section class="top">
       <div class="infos ib">
         <?php include $php_folder . $info_admin . $php_extension; ?>
@@ -34,16 +32,18 @@ if (!isset($cv) || empty($cv)) {
         <img src="./resources/profil.jpg" alt="Photo de Profil">
       </div>
     </section>
+  </header>
 
+  <div class="main_content">
     <div class="tabs">
       <a
         class=<?php echo "'tabs_header ". (($cv == $cdp_amoa) ? "active'" : "inactive'"); ?>
-        href=<?php echo "?cv=" . $cdp_amoa ?>>
+        href="<?php echo "?cv=" . $cdp_amoa ?>">
         Chef de projets ERP
       </a>
       <a
         class=<?php echo "'tabs_header " . (($cv == $dev_web) ? "active'" : "inactive'"); ?>
-        href=<?php echo "?cv=" . $dev_web ?>>
+        href="<?php echo "?cv=" . $dev_web ?>">
         Développeur Web Front/Back
       </a>
     </div>

@@ -18,7 +18,7 @@
     <h1>Compétences</h1>
     <ul>
       <li>Outils bureautiques : Office, Access, mais aussi LibreOffice, LaTeX ;</li>
-      <li>Technologies maîtrisées : HTML5, CSS3, PHP5, jS/jQuery, MySQL/MariaDB, Apache, Java</li>
+      <li>Technologies maîtrisées : HTML5, CSS3/SCSS, PHP5, jS/jQuery, MySQL/MariaDB, Apache</li>
       <li>Technologies approchées : HAML, AngularJS, Ember.js</li>
       <li>Bonne expérience des environnements Windows Server, IBM AS/400 , UNIX/Linux.</li>
     </ul>
