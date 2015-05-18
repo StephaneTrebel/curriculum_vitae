@@ -4,6 +4,9 @@ $php_extension = ".php";
 $cv = filter_input(INPUT_GET , "cv" , FILTER_SANITIZE_STRING);
 $cdp_amoa = "cdp_amoa";
 $dev_web = "dev_web";
+$info_admin = "infos_administratives";
+$langues = "langues";
+$activites = "activites_extraprofessionnelles";
 if (!isset($cv) || empty($cv)) {
   $cv = $dev_web;
 }
@@ -25,16 +28,7 @@ if (!isset($cv) || empty($cv)) {
     </header>
     <section class="top">
       <div class="infos ib">
-        <h1>Informations administratives</h1>
-        <ul>
-          <li>Trébel Stéphane</li>
-          <li>15 Le Cormier</li>
-          <li>56350 Saint-Vincent-Sur-Oust</li>
-          <li>&nbsp;</li>
-          <li>Mobile : 06 81 62 69 40</li>
-          <li>Mèl : <a href="mailto:stephane.trebel@gmail.com">stephane.trebel@gmail.com<a></li>
-          <li>33 ans</li>
-        </ul>
+        <?php include $php_folder . $info_admin . $php_extension; ?>
       </div>
       <div class="profil ib">
         <img src="./resources/profil.jpg" alt="Photo de Profil">
@@ -69,20 +63,11 @@ if (!isset($cv) || empty($cv)) {
       ?>
 
       <section>
-        <h1>Langues</h1>
-        <ul>
-          <li>Anglais : Bilingue.</li>
-        </ul>
+        <?php include $php_folder . $langues . $php_extension; ?>
       </section>
 
-
       <section>
-        <h1>Activités Extraprofessionnelles</h1>
-        <ul>
-          <li>Administration des sites internet <a href="http://www.stephanetrebel.com"><em>Stephane Trebel</em></a> et <a href="http://www.espritpaleo.com"><em>Esprit Paleo</em></a></li>
-          <li>Photographie (et administration d’une <a href="http://www.stephanetrebel.com/galerie">galerie en ligne</a>)</li>
-          <li>Pratique de la Guitare</li>
-        </ul>
+        <?php include $php_folder . $activites . $php_extension; ?>
       </section>
 
     </div> <!-- wrapper_cv -->
