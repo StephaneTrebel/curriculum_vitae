@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   background-color: #fcfcfc;
   font-family: "Arial", "Liberation Sans", sans serif;
@@ -45,6 +46,12 @@ header {
       header section {
         width: 750px;
         font-size: 1rem; } }
+  header a {
+    color: #0287ca;
+    text-decoration: none; }
+    header a:hover {
+      color: #fcfcfc;
+      transition: color 1s; }
 
 h1 {
   font-size: 1.5rem;
@@ -107,12 +114,10 @@ footer {
   list-style-type: none; }
 
 .keyword {
-  text-decoration: underline wavy #ff5757; }
+  color: #35bafd; }
   .keyword:hover, .keyword:focus {
-    background-color: #35bafd;
-    text-decoration: none;
-    transition: background-color 2s, text-decoration 1s;
-    border-radius: 10px; }
+    content: "Assistance A Maîtrise d'Ouvrage";
+    transition: content 1s; }
 
 /* TABS MANAGEMENT *****************************************************/
 /*##############################
