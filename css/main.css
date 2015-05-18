@@ -13,7 +13,7 @@ body {
   color: #333333;
   background-color: #fcfcfc;
   text-align: justify;
-  line-height: 1.5rem; }
+  line-height: 1.8rem; }
   @media (max-width: 999px) {
     .main_content {
       width: 750px;
@@ -30,7 +30,7 @@ header {
   font-size: 1.8rem;
   text-align: left;
   height: 200px;
-  background-color: #02a6f2;
+  background-color: #03a9fc;
   color: #fcfcfc; }
   header h1 {
     color: #fcfcfc;
@@ -48,11 +48,11 @@ header {
 
 h1 {
   font-size: 1.5rem;
-  color: #02a6f2; }
+  color: #03a9fc; }
 
 h2 {
   font-size: 1.4rem;
-  color: #02a6f2; }
+  color: #03a9fc; }
 
 h2:after {
   content: " :"; }
@@ -87,7 +87,7 @@ footer {
 .top_bar {
   width: 100%;
   height: 40px;
-  background-color: #0287cf;
+  background-color: #0287ca;
   color: #fcfcfc; }
 
 .profil {
@@ -100,7 +100,7 @@ footer {
     vertical-align: middle; }
 
 .profil:hover {
-  background-color: #02a6f2;
+  background-color: #35bafd;
   transition: background-color 2s; }
 
 .infos > ul {
@@ -108,6 +108,11 @@ footer {
 
 .keyword {
   text-decoration: underline wavy #ff5757; }
+  .keyword:hover, .keyword:focus {
+    background-color: #35bafd;
+    text-decoration: none;
+    transition: background-color 2s, text-decoration 1s;
+    border-radius: 10px; }
 
 /* TABS MANAGEMENT *****************************************************/
 /*##############################
@@ -124,7 +129,7 @@ footer {
 ################################*/
 /* Default values */
 .tabs_wrapper {
-  border: 2.5px solid #02a6f2;
+  border: 2.5px solid #35bafd;
   padding-left: 2.5%;
   padding-right: 2.5%; }
 
@@ -138,15 +143,15 @@ footer {
   border-radius: 3px 3px 0 0; }
   .tabs_header:hover, .tabs_header:focus {
     color: #fcfcfc;
-    background-color: #02a6f2;
+    background-color: #35bafd;
     transition: background-color 0.5s, color 0.5s; }
 
 .inactive {
-  color: #02a6f2;
-  background-color: #c2ebfe; }
+  color: #35bafd;
+  background-color: white; }
 
 .active {
   color: #fcfcfc;
-  background-color: #02a6f2; }
+  background-color: #35bafd; }
 
 /*# sourceMappingURL=main.css.map */

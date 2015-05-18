@@ -32,7 +32,7 @@ body {
     font-size: 1rem;
   }
   text-align: justify;
-  line-height: 1.5rem;
+  line-height: 1.8rem;
 }
 
 //General classes*******************************************************
@@ -137,7 +137,7 @@ em {
 }
 
 .profil:hover {
-  background-color: $header_color;
+  background-color: $light-blue;
   transition: background-color 2s;
 }
 
@@ -147,10 +147,16 @@ em {
 
 .keyword {
   text-decoration: underline wavy $light-red;
+  &:hover, &:focus {
+    background-color: $light-blue;
+    text-decoration: none;
+    transition: background-color 2s, text-decoration 1s;
+    border-radius: 10px;
+  }
 }
 
 
 /* TABS MANAGEMENT *****************************************************/
-$tabs_active_background : lighten($header_color, 0%);
+$tabs_active_background : $light-blue;
 $tabs_active_foreground : $background_color;
 @import 'tabs';
