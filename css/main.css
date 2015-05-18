@@ -37,7 +37,7 @@ h2 {
   font-size: 1.4rem;
   color: #02a6f2; }
 
-h1:after, h2:after {
+h2:after {
   content: " :"; }
 
 footer {

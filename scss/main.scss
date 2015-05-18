@@ -57,7 +57,7 @@ h2 {
   color: $header_color;
 }
 
-h1:after, h2:after {
+h2:after {
   content: " :";
 }
 
