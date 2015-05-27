@@ -33,7 +33,7 @@ if (!isset($cv) || empty($cv)) {
         <?php include $php_folder . $info_admin . $php_extension; ?>
       </div>
       <div class="profil ib">
-        <img src="./resources/profil.jpg" alt="Photo de Profil">
+        <img itemprop="image" src="./resources/profil.jpg" alt="Photo de Profil">
       </div>
     </section>
   </header>
