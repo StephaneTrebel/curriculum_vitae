@@ -1,6 +1,7 @@
 <?php
 $php_folder = "./php/";
 $php_extension = ".php";
+$resources_folder = "./resources/";
 $cv = filter_input(INPUT_GET , "cv" , FILTER_SANITIZE_STRING);
 $cdp_amoa = "cdp_amoa";
 $dev_web = "dev_web";
@@ -36,16 +37,25 @@ if (!isset($cv) || empty($cv)) {
 
   <div class="main_content">
     <div class="tabs">
-      <a
-        class=<?php echo "'tabs_header ". (($cv == $cdp_amoa) ? "active'" : "inactive'"); ?>
-        href="<?php echo "?cv=" . $cdp_amoa ?>">
-        Chef de projets ERP
-      </a>
-      <a
-        class=<?php echo "'tabs_header " . (($cv == $dev_web) ? "active'" : "inactive'"); ?>
-        href="<?php echo "?cv=" . $dev_web ?>">
-        Développeur Web Front/Back
-      </a>
+      <div class=<?php echo "'tabs_header ". (($cv == $cdp_amoa) ? "active'" : "inactive'"); ?>>
+        <a href="<?php echo "?cv=" . $cdp_amoa ?>">Chef de projets ERP</a>
+        <a
+          class="download_icon"
+          href="<?php echo $resources_folder . "CV_Stephane_Trebel_CdP_ERP.pdf" ?>"
+        >
+          <?php echo file_get_contents($resources_folder . "download.svg"); ?>
+        </a>
+      </div>
+
+      <div class=<?php echo "'tabs_header " . (($cv == $dev_web) ? "active'" : "inactive'"); ?>>
+        <a href="<?php echo "?cv=" . $dev_web ?>">Développeur Web Front/Back</a>
+        <a
+          class="download_icon"
+          href="<?php echo $resources_folder . "CV_Stephane_Trebel_Dev_Web.pdf" ?>"
+        >
+          <?php echo file_get_contents($resources_folder . "download.svg"); ?>
+        </a>
+      </div>
     </div>
 
     <div class="tabs_wrapper">
@@ -73,7 +83,15 @@ if (!isset($cv) || empty($cv)) {
     </div> <!-- wrapper_cv -->
 
     <footer>
-      Copyright 2015. Tous droits réservés
+      Copyright 2015. Tous droits réservés.
+      <div>Icons made by
+        <a href="http://www.flaticon.com/authors/google" title="Google">Google
+        </a> from
+        <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com
+        </a> is licensed by
+        <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0
+        </a>
+      </div>
     </footer>
 
     <script src="js/main.js"></script>

@@ -31,7 +31,7 @@ $tabs_transition_duration: 0.5s;
 }
 
 .tabs_header {
-  text-decoration: none;
+  display: inline-block;
   padding : $tabs_spacing $tabs_spacing 0 $tabs_spacing;
   margin : $tabs_spacing $tabs_spacing $tabs_spacing 0;
   border-radius: $tabs_border_radius $tabs_border_radius 0 0;
@@ -40,11 +40,18 @@ $tabs_transition_duration: 0.5s;
     background-color: $tabs_active_background;
     transition: background-color $tabs_transition_duration, color $tabs_transition_duration;
   }
+  a {
+    text-decoration: none;
+  }
 }
 
 .inactive {
   color: $tabs_active_background;
   background-color: $tabs_inactive_background;
+  a {
+    color: inherit;
+    background-color: inherit;
+  }
   @media print {
     display: none;
   }
@@ -53,4 +60,8 @@ $tabs_transition_duration: 0.5s;
 .active {
   color: $tabs_active_foreground;
   background-color: $tabs_active_background;
+  a {
+    color: inherit;
+    background-color: inherit;
+  }
 }
