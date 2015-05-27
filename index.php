@@ -14,13 +14,16 @@ if (!isset($cv) || empty($cv)) {
 ?>
 <!DOCTYPE html>
 
-<html>
+<html lang="fr" itemscope itemtype="http://schema.org/Article">
 <head>
   <title>CV Stéphane Trebel</title>
   <meta charset="utf-8" data-column="8">
   <!--<link rel="stylesheet" href="./font-awesome-4.2.0/css/font-awesome.min.css"/>-->
   <link rel="stylesheet" href="./css/main.css"/>
   <!--<link rel="icon" type="image/png" href="./resources/favicon.png" />-->
+  <meta itemprop="name" content="CV Stéphane Trebel">
+  <meta itemprop="description" content="Chef de Projets ERP / Développeur Web">
+  <meta itemprop="image" content="http://stephanetrebel.synology.me/curriculum_vitae/resources/profil.jpg">
 </head>
 <body>
   <header>
