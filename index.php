@@ -25,7 +25,7 @@ if (!isset($cv) || empty($cv)) {
   <meta itemprop="description" content="Chef de Projets ERP / Développeur Web">
   <meta itemprop="image" content="http://stephanetrebel.synology.me/curriculum_vitae/resources/profil.jpg">
 </head>
-<body itemscope itemtype="http://schema.org/Product>
+<body>
   <header>
   <div class="top_bar"></div>
     <section class="top">
