@@ -1,8 +1,12 @@
 @import 'colors';
 
-$background_color : $whitey;
+$background_color: $whitey;
 $foreground_color: $blackey;
-$header_color : $blue;
+$header_color: $blue;
+$line_height: 1.8rem;
+$line_height_print: $line_height * 0.8;
+$font_size: 1.2rem;
+$font_size_print: $font_size * 0.9;
 
 $width: 1000px;
 $profil-size: 150px;
@@ -14,7 +18,7 @@ body {
   background-color: $whitey;
   font: {
     family: "Arial", "Liberation Sans", sans serif;
-    size: 1.2rem;
+    size: $font_size;
     weight: 400;
   }
   margin: 0;
@@ -27,12 +31,19 @@ body {
   margin-bottom: 50px;
   color: $foreground_color;
   background-color: $background_color;
+  text-align: justify;
+  line-height: $line_height;
   @media (max-width: $width - 1) {
     width: 750px;
-    font-size: 1rem;
+    font-size: $font_size * 0.8;
   }
-  text-align: justify;
-  line-height: 1.8rem;
+  @media print {
+    width: 100%;
+    font-size : $font_size_print;
+    line-height: $line_height_print;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 //General classes*******************************************************
@@ -99,6 +110,9 @@ footer {
   text-align: center;
   background-color: inherit;
   z-index: 9999;
+  @media print {
+    display: none;
+  }
 }
 
 em {
@@ -155,10 +169,6 @@ em {
 
 .keyword {
   color: $light-blue;
-  &:hover, &:focus {
-    content: "Assistance A Maîtrise d'Ouvrage";
-    transition: content 1s;
-  }
 }
 
 

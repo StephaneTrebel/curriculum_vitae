@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body {
   background-color: #fcfcfc;
   font-family: "Arial", "Liberation Sans", sans serif;
@@ -18,7 +17,14 @@ body {
   @media (max-width: 999px) {
     .main_content {
       width: 750px;
-      font-size: 1rem; } }
+      font-size: 0.96rem; } }
+  @media print {
+    .main_content {
+      width: 100%;
+      font-size: 1.08rem;
+      line-height: 1.44rem;
+      margin: 0;
+      padding: 0; } }
 
 .ib {
   display: inline-block;
@@ -71,6 +77,9 @@ footer {
   text-align: center;
   background-color: inherit;
   z-index: 9999; }
+  @media print {
+    footer {
+      display: none; } }
 
 .top {
   -ms-box-orient: horizontal;
@@ -115,9 +124,6 @@ footer {
 
 .keyword {
   color: #35bafd; }
-  .keyword:hover, .keyword:focus {
-    content: "Assistance A Maîtrise d'Ouvrage";
-    transition: content 1s; }
 
 /* TABS MANAGEMENT *****************************************************/
 /*##############################
@@ -154,6 +160,9 @@ footer {
 .inactive {
   color: #35bafd;
   background-color: #cdeefe; }
+  @media print {
+    .inactive {
+      display: none; } }
 
 .active {
   color: #fcfcfc;

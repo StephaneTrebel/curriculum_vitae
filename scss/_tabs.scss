@@ -45,6 +45,9 @@ $tabs_transition_duration: 0.5s;
 .inactive {
   color: $tabs_active_background;
   background-color: $tabs_inactive_background;
+  @media print {
+    display: none;
+  }
 }
 
 .active {
