@@ -1,6 +1,6 @@
-<h1>Informations administratives</h1>
+<!--h1>Informations administratives</h1-->
 <ul>
-  <li>Trébel Stéphane</li>
+  <li>Stéphane Trébel</li>
 <!--
   <li>15 Le Cormier</li>
   <li>56350 Saint-Vincent-Sur-Oust</li>
