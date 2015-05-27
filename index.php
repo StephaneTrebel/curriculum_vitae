@@ -85,10 +85,6 @@ if (!isset($cv) || empty($cv)) {
 
     </div> <!-- wrapper_cv -->
 
-    <span itemprop="name">Stéphane Trebel</span>
-<span itemprop="description">CV Stéphane Trebel !</span>
-<img itemprop="image" src="http://stephanetrebel.synology.me/curriculum_vitae/resources/profil.jpg">
-
     <footer>
       Copyright 2015. Tous droits réservés.
       <div>Icons made by
