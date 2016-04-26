@@ -2,5 +2,6 @@
 
 My resume as a PHP webapp
 
-Can be seen [Here](https://shielded-shelf-40378.herokuapp.com/?cv=dev_web)
+Can be seen [Here](https://resume-stephanetrebel.herokuapp.com/)
+
 To be continued !
