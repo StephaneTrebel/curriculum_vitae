@@ -21,6 +21,7 @@
               <li>Fonctionnalités secondaires: flux twitter, flux d'informations météorologiques</li>
             </ul>
           </li>
+        </ul>
       </li>
        <li>
         <h2>Janvier 2015 – Aujourd'hui</h2>
