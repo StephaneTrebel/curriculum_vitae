@@ -9,7 +9,7 @@
           <li>
             <h3>2015 - Aujourd'hui</h3>ETG (Code de la route) pour LaPoste:
             <ul>
-              <li>Réalisation d'une API REST HTTP en nodejs (Swagger, Sequelize, TLS)</li>
+              <li>Réalisation d'une API REST HTTP en nodejs (Swagger, Sequelize, HTTPS)</li>
               <li>Réalisation d'une application web réalisée en Angular et Material Design</li>
             </ul>
           </li>
