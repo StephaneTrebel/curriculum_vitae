@@ -1,4 +1,4 @@
-<article id="cdp_m3">
+<article id="dev_web">
   <section class="experience">
     <h1>Expérience professionnelle</h1>
     <ul>
@@ -7,7 +7,14 @@
         Developpeur Front/Back javascript pour <strong>Conserto</strong>
         <ul>
           <li>
-            <h3>2015 - Aujourd'hui</h3>ETG (Code de la route) pour LaPoste:
+            <h3>Juillet 2016 - Août 2016</h3>Socle CoveUse pour Covea:
+            <ul>
+              <li>Développement TypeScript/AngularJS pour un framework d'applications</li>
+              <li>Intégration de SPA dans une solution ESIGate</li>
+            </ul>
+          </li>
+          <li>
+            <h3>2015 - Juillet 2016</h3>ETG (Code de la route) pour LaPoste:
             <ul>
               <li>Réalisation d'une API REST HTTP en nodejs (Swagger, Sequelize, HTTPS)</li>
               <li>Réalisation d'une application web réalisée en Angular et Material Design</li>
