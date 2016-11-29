@@ -2,15 +2,10 @@
 $php_folder = "./php/";
 $php_extension = ".php";
 $resources_folder = "./resources/";
-$cv = filter_input(INPUT_GET , "cv" , FILTER_SANITIZE_STRING);
-$cdp_amoa = "cdp_amoa";
 $dev_web = "dev_web";
 $info_admin = "infos_administratives";
 $langues = "langues";
 $activites = "activites_extraprofessionnelles";
-if (!isset($cv) || empty($cv)) {
-  $cv = $dev_web;
-}
 ?>
 <!DOCTYPE html>
 
@@ -22,7 +17,7 @@ if (!isset($cv) || empty($cv)) {
   <link rel="stylesheet" href="./css/main.css"/>
   <!--<link rel="icon" type="image/png" href="./resources/favicon.png" />-->
   <meta itemprop="name" content="CV Stéphane Trebel">
-  <meta itemprop="description" content="Chef de Projets ERP / Développeur Web">
+  <meta itemprop="description" content="Expert en Applications Web">
   <meta itemprop="image" content="http://stephanetrebel.synology.me/curriculum_vitae/resources/profil.jpg">
 </head>
 <body>
@@ -39,40 +34,9 @@ if (!isset($cv) || empty($cv)) {
   </header>
 
   <div class="main_content">
-    <div class="tabs">
-      <div class=<?php echo "'tabs_header ". (($cv == $cdp_amoa) ? "active'" : "inactive'"); ?>>
-        <a href="<?php echo "?cv=" . $cdp_amoa ?>">Chef de projets ERP</a>
-        <a
-          class="download_icon"
-          href="<?php echo $resources_folder . "CV_Stephane_Trebel_CdP_ERP.pdf" ?>"
-        >
-          <?php echo file_get_contents($resources_folder . "download.svg"); ?>
-        </a>
-      </div>
-
-      <div class=<?php echo "'tabs_header " . (($cv == $dev_web) ? "active'" : "inactive'"); ?>>
-        <a href="<?php echo "?cv=" . $dev_web ?>">Développeur Web Front/Back</a>
-        <a
-          class="download_icon"
-          href="<?php echo $resources_folder . "CV_Stephane_Trebel_Dev_Web.pdf" ?>"
-        >
-          <?php echo file_get_contents($resources_folder . "download.svg"); ?>
-        </a>
-      </div>
-    </div>
-
     <div class="tabs_wrapper">
       <?php
-        switch ($cv) {
-          case $cdp_amoa:
-            include $php_folder . $cdp_amoa . $php_extension;
-            break;
-          case $dev_web:
             include $php_folder . $dev_web . $php_extension;
-            break;
-          default:
-            echo "La page demandée n'est pas accessible";
-        }
       ?>
 
       <section>
