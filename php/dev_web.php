@@ -3,14 +3,37 @@
     <h1>Expérience professionnelle</h1>
     <ul>
       <li>
-        <h2>Aout 2015 - Aujourd'hui</h2>
+        <h2>2017 - Aujourd'hui</h2>
+        Responsable du laboratoire R&amp;D chez <strong>AdvisorSLA</strong>
+        <ul>
+          <li>
+            <h3>Décembre 2018 - Aujourd'hui</h3>Responsable du laboratoire de R&amp;D
+            <ul>
+              <li>Management de l'équipe technique</li>
+              <li>Participation au comité de Direction</li>
+              <li>Définition des orientations techniques de la solution (Releases, Dette Technique, Infrastructure)</li>
+              <li>Encadrement du support client</li>
+            </ul>
+          </li>
+          <li>
+            <h3>Août 2017 - Décembre 2018</h3>Ingénieur développement Web
+            <ul>
+              <li>Développement d'une application Angular2/TypeScript</li>
+              <li>Développement et mise en place d'un framework de tests fonctionnels de composants javascript</li>
+              <li>Mise en place d'un éco-système de développement (Jenkins, Jira, Confluence, Bitbucket, Sonatype Nexus) pour faire de l'intégration continue</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h2>2015 - 2017</h2>
         Developpeur javascript fullstack pour <strong>Conserto</strong>
         <ul>
           <li>
-            <h3>Octobre 2016 - Actuellement</h3>Projet KDECOLE pour Kosmos:
+            <h3>Octobre 2016 - Mars 2017</h3>Projet KDECOLE pour Kosmos:
             <ul>
               <li>Développement et maintenance de composants Javascript natifs pour des développeurs JavaEE</li>
-              <li>Développement et mise en place d'un framework de tests fonctionnels de composants javascripts</li>
+              <li>Développement et mise en place d'un framework de tests fonctionnels de composants javascript</li>
               <li>Fort accent sur l'accessibilité et l'amélioration progressive des applications web</li>
             </ul>
           </li>

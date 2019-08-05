@@ -1,7 +1,6 @@
 <h1>Activités Extraprofessionnelles</h1>
 <ul>
-  <li>Sport (Randonnée, Musculation, Course à pied)</li>
-  <li>Photographie</li>
+  <li>Jardinage (Permaculture)</li>
   <li>Pratique de la Guitare</li>
-  <li>Fan invétéré de Minecraft</li>
+  <li>Codeur aussi à mes heures perdues…</li>
 </ul>

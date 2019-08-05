@@ -17,8 +17,8 @@ $activites = "activites_extraprofessionnelles";
   <link rel="stylesheet" href="./css/main.css"/>
   <!--<link rel="icon" type="image/png" href="./resources/favicon.png" />-->
   <meta itemprop="name" content="CV Stéphane Trebel">
-  <meta itemprop="description" content="Expert en Applications Web">
-  <meta itemprop="image" content="http://stephanetrebel.synology.me/curriculum_vitae/resources/profil.jpg">
+  <meta itemprop="description" content="Expert en applications Web">
+  <meta itemprop="image" content="https://resume-stephanetrebel.herokuapp.com/resources/profil.jpg">
 </head>
 <body>
   <header>
@@ -50,7 +50,7 @@ $activites = "activites_extraprofessionnelles";
     </div> <!-- wrapper_cv -->
 
     <footer>
-      Copyright 2015. Tous droits réservés.
+      Copyright 2019. Tous droits réservés.
       <div>Icons made by
         <a href="http://www.flaticon.com/authors/google" title="Google">Google
         </a> from
@@ -64,6 +64,5 @@ $activites = "activites_extraprofessionnelles";
     <script src="js/main.js"></script>
 
   </div> <!-- main_content -->
-  <?php include_once("php/analyticstracking.php") ?>
 </body>
 </html>
