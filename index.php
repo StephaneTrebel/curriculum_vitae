@@ -13,9 +13,7 @@ $activites = "activites_extraprofessionnelles";
 <head>
   <title>CV Stéphane Trebel</title>
   <meta charset="utf-8" data-column="8">
-  <!--<link rel="stylesheet" href="./font-awesome-4.2.0/css/font-awesome.min.css"/>-->
   <link rel="stylesheet" href="./css/main.css"/>
-  <!--<link rel="icon" type="image/png" href="./resources/favicon.png" />-->
   <meta itemprop="name" content="CV Stéphane Trebel">
   <meta itemprop="description" content="Expert en applications Web">
   <meta itemprop="image" content="https://resume-stephanetrebel.herokuapp.com/resources/profil.jpg">
