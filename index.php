@@ -59,8 +59,6 @@ $activites = "activites_extraprofessionnelles";
       </div>
     </footer>
 
-    <script src="js/main.js"></script>
-
   </div> <!-- main_content -->
 </body>
 </html>
