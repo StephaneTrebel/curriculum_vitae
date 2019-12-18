@@ -2,7 +2,7 @@
 $php_folder = "./php/";
 $php_extension = ".php";
 $resources_folder = "./resources/";
-$dev_web = "dev_web";
+$work_history = "work_history";
 $info_admin = "infos_administratives";
 $langues = "langues";
 $activites = "activites_extraprofessionnelles";
@@ -34,7 +34,7 @@ $activites = "activites_extraprofessionnelles";
   <div class="main_content">
     <div class="tabs_wrapper">
       <?php
-            include $php_folder . $dev_web . $php_extension;
+            include $php_folder . $work_history . $php_extension;
       ?>
 
       <section>
