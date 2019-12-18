@@ -127,15 +127,6 @@ footer {
 .keyword {
   color: #35bafd; }
 
-/* DOWNLOAD ICON   *****************************************************/
-.download_icon svg {
-  width: 20px;
-  height: 20px;
-  fill: #fcfcfc; }
-@media print {
-  .download_icon {
-    display: none; } }
-
 /* TABS MANAGEMENT *****************************************************/
 /*##############################
   Tabs management for content

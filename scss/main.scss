@@ -173,20 +173,6 @@ em {
   color: $light-blue;
 }
 
-/* DOWNLOAD ICON   *****************************************************/
-
-.download_icon {
-  svg {
-    width: 20px;
-    height: 20px;
-    fill: $whitey;
-  }
-  @media print {
-    display: none;
-  }
-}
-
-
 /* TABS MANAGEMENT *****************************************************/
 $tabs_active_background : $light-blue;
 $tabs_active_foreground : $background_color;
