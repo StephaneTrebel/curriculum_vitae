@@ -3,11 +3,11 @@
     <h1>Expérience professionnelle</h1>
     <ul>
       <li>
-        <h2>Août 2017 - Décembre 2019</h2>
+        <h2>Août 2017 - Novembre 2019</h2>
         Responsable du laboratoire R&amp;D chez <strong>AdvisorSLA</strong>
         <ul>
           <li>
-            <h3>Décembre 2018 - Décembre 2019</h3>Responsable du laboratoire de R&amp;D
+            <h3>Décembre 2018 - Novembre 2019</h3>Responsable du laboratoire de R&amp;D
             <ul>
               <li>Management de l'équipe technique</li>
               <li>Participation au comité de Direction</li>
