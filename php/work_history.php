@@ -3,6 +3,44 @@
     <h1>Expérience professionnelle</h1>
     <ul>
       <li>
+        <h2>Décembre 2019 - Actuellement</h2>
+        Senior Software Engineer chez <strong>Capgemini</strong>
+        <ul>
+          <li>
+            <h3>Novembre 2020 - Actuellement</h3>Architecte solution sur un projet de site e-commerce
+            <ul>
+              <li>Projet de l'ordre d'une centaine de personnes, en SAFe</li>
+              <li>Périmètre des frameworks FrontOffice (Angular + Typescript + node.js)</li>
+              <li>Membre de la Design Authority FrontOffice</li>
+              <li>Référent Git, Linux et Docker, en plus des technos FrontOffice</li>
+              <li>Interventions sur des projets transverses liés au FrontOffice (mise en place d'un monorepo Angular avec Nx, application des principes 12FactorApp, etc.)</li>
+              <li>Co-animateur d'un Vim Coding Dojo</li>
+              <li>Organisateur de transferts de connaissances sur Type«strict», les bonnes pratiques de développement, les tests unitaires automatisés</li>
+              <li>Environnement: Ubuntu, AWS, Docker, Angular 12, node.js, Typescript, Jenkins, Git</li>
+            </ul>
+          </li>
+          <li>
+            <h3>Mars 2020 - Novembre 2020</h3>Tech lead Devops sur un projet de refonte SI Web
+            <ul>
+              <li>Management technique de l'équipe Devops (4 devs)</li>
+              <li>Définition avec le client de l'architecture cible</li>
+              <li>Création de toute l'architecture devops: monorepo, pipelines, docker-compose, charts Helm, configuration des dépôts, scripts de démarrage, terraformation des environnements sur Azure</li>
+              <li>Configuration d'un API Manager (Gravitee) pour les flux intra-k8s entre du Drupal 8, Magento 2, une application front React et une application back en Nest.js</li>
+              <li>Environnement: Ubuntu, Azure, Kubernetes, Docker, React, Nest.js, Typescript, Azure DevOps, Git</li>
+            </ul>
+          </li>
+          <li>
+            <h3>Décembre 2019 - Mars 2020</h3>Architecte solution sur un projet de marketplace immobilière
+            <ul>
+              <li>Management technique de l'équipe (une vingtaine de dev)</li>
+              <li>Définition avec le client de l'architecture cible</li>
+              <li>Accompagnement lors de la mise en production de la solution</li>
+              <li>Environnement: Azure, Kubernetes, Docker, Angular, node.js, Typescript, Gitlab, Jenkins, Git</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
         <h2>Août 2017 - Novembre 2019</h2>
         Responsable du laboratoire R&amp;D chez <strong>AdvisorSLA</strong>
         <ul>
@@ -126,25 +164,29 @@
   <section class="competences">
     <h1>Compétences</h1>
     <ul>
-      <li>Frameworks javascript: nodejs (+ES2015), Angular 1.5</li>
-      <li>Frameworks approchés: Ember.js, Backbone, React</li>
-      <li>Autres technos web connues: HTML5, CSS3/SCSS/LESS, PHP5, MySQL, Apache, JSP</li>
+      <li>Environnement Javascript: Angular 12, Nx 13, React 16, Nest.js, Express/Restify</li>
+      <li>Environnement Cloud: AWS et Azure, dont les parties serverless/lambdas, Terraform</li>
+      <li>Conteneurs: Docker, docker-compose, Kubernetes, Skaffold</li>
+      <li>Forge logicielle: Suite Atlassian, Github/Bitbucket/Gitlabs/AzureDevOps, Jenkins, Sonarqube</li>
+      <li>Forte appétance pour l'écosystem Linux OpenSource: Vim, shell scripting, Markdown, PlantUML, etc.</li>
+      <li>Forte sensibilité à la programmation fonctionelle et aux pratiques DevOps (CI/CD)</li>
+      <li>Tests automatisés: Karma, Jest, RobotFramework, Cucumber, Blazemeter, Gatling</li>
+      <li>Autres technos web connues: HTML5, CSS3/SCSS/LESS, PHP, Python, MySQL, Apache, JSP</li>
       <li>Bonne expérience des environnements UNIX/Linux</li>
-      <li>Methode Agile (Scrum), Test Driven Development</li>
-      <li>Forte sensibilité à la programmation fonctionelle et l'état d'esprit DevOps</li>
-      <li>Outils techniques: Vim, JIRA/Trello, Github/BitBucket/Gitlabs, SVN, Docker</li>
-      <li>Outils bureautiques: MS Office, Access, et également LibreOffice, LaTeX, Markdown</li>
+      <li>Methode Agile (Scrum, SAFe), Test Driven Development</li>
     </ul>
   </section>
 
   <section class="formation">
-    <h1>Formation</h1>
+    <h1>Formations</h1>
     <ul>
-      <li>Juillet 2016: Formation de deux jours à Docker chez Zenika Nantes</li>
-      <li>Aout 2015: Formation de trois jours à nodejs chez Zenika Nantes</li>
-      <li>2000 – 2001 : Licence d’Informatique, mention ‘Assez Bien’ (Université d’Évry Val d’Essonne)</li>
-      <li>1998 – 2000 : DEUG MIAS, mention ‘Assez Bien’ (Université d’Évry Val d’Essonne)</li>
-      <li>1998 : Baccalauréat S Option Mathématiques, mention ‘Bien’ (Lycée Georges Brassens, Evry)</li>
+      <li>2022: Certification AWS Architect Associate</li>
+      <li>2021: Formation SAFe DevOps</li>
+      <li>2016: Formation de deux jours à Docker chez Zenika Nantes</li>
+      <li>2015: Formation de trois jours à nodejs chez Zenika Nantes</li>
+      <li>2001: Licence d’Informatique, mention ‘Assez Bien’ (Université d’Évry Val d’Essonne)</li>
+      <li>2000: DEUG MIAS, mention ‘Assez Bien’ (Université d’Évry Val d’Essonne)</li>
+      <li>1998: Baccalauréat S Option Mathématiques, mention ‘Bien’ (Lycée Georges Brassens, Evry)</li>
     </ul>
   </section>
 
