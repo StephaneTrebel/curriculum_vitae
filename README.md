@@ -2,6 +2,6 @@
 
 My resume as a PHP webapp
 
-Can be seen [Here](https://resume-stephanetrebel.herokuapp.com/)
+Can be seen [Here](https://curriculum-vitae-steph.herokuapp.com/)
 
 To be continued !

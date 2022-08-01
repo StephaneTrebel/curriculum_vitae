@@ -48,7 +48,7 @@ $activites = "activites_extraprofessionnelles";
     </div> <!-- wrapper_cv -->
 
     <footer>
-      Copyright 2019. Tous droits réservés.
+      Copyright 2022. Tous droits réservés.
     </footer>
 
   </div> <!-- main_content -->
