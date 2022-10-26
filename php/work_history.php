@@ -3,11 +3,33 @@
     <h1>Expérience professionnelle</h1>
     <ul>
       <li>
-        <h2>Décembre 2019 - Actuellement</h2>
+        <h2>Septembre 2022 - Actuellement</h2>
+        Architecte Solutions chez <strong>Softeam</strong>
+        <ul>
+          <li>
+            <h3>Septembre 2022 - Actuellement</h3>Architecte pour une ESN gérant des données d'une Région de France
+            <ul>
+              <li>Études techniques autour de l'API Gateway Tyk</li>
+              <li>Études techniques autour de la solution IAM Keycloak</li>
+              <li>Étude d'implantation d'un broker ActiveMQ</li>
+              <li>Environnement: Ubuntu, Outscale, Docker, Java, Angular 12</li>
+            </ul>
+          </li>
+          <li>
+            <h3>Septembre 2022 - Actuellement</h3>Architecte pour un projet interne Docaposte sur de la métrologie à haut volumes
+            <ul>
+              <li>Étude de cadrage de la sécurité de l'information dans le contexte Docaposte (ISO-27001, RGPD, Cloud souverain)</li>
+              <li>Environnement: Ubuntu, Openshift/Kubernetes, Rancher Kubernetes Engine, Apache Pulsar, ArrangoDB, Nest.js</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h2>Décembre 2019 - Août 2022</h2>
         Senior Software Engineer chez <strong>Capgemini</strong>
         <ul>
           <li>
-            <h3>Novembre 2020 - Actuellement</h3>Architecte solution sur un projet de site e-commerce
+            <h3>Novembre 2020 - Août 2022</h3>Architecte solution sur un projet de site e-commerce
             <ul>
               <li>Projet de l'ordre d'une centaine de personnes, en SAFe</li>
               <li>Périmètre des frameworks FrontOffice (Angular + Typescript + node.js)</li>
