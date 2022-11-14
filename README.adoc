@@ -1,7 +1,7 @@
 == curriculum_vitae
 
-My resume as a simple PHP webapp
+My resume as a PHP webapp
 
-Can be seen link:./index.html[Here]
+Can be seen https://rawcdn.githack.com/StephaneTrebel/curriculum_vitae/54a0d63dfcf9540df3f5d07824b30e0214dbe017/index.html[Here]
 
 To be continued !
