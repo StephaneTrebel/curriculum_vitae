@@ -2,6 +2,6 @@
 
 My resume as a PHP webapp
 
-Can be seen https://rawcdn.githack.com/StephaneTrebel/curriculum_vitae/54a0d63dfcf9540df3f5d07824b30e0214dbe017/index.html[Here]
+Can be seen https://rawcdn.githack.com/StephaneTrebel/curriculum_vitae/64de457da0967bfe8229a8ed00da77e0c8038ee5/index.html[Here]
 
 To be continued !
