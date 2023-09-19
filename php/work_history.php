@@ -28,7 +28,7 @@
         Architecte Solutions chez <strong>Softeam</strong>
         <ul>
           <li>
-            <h3>Septembre 2022 - Actuellement</h3>Architecte pour une ESN gérant des données d'une Région de France
+            <h3>Septembre 2022 - Décembre 2023</h3>Architecte pour une ESN gérant des données d'une Région de France
             <ul>
               <li>Études techniques autour de l'API Gateway Tyk</li>
               <li>Études techniques autour de la solution IAM Keycloak</li>
@@ -37,7 +37,7 @@
             </ul>
           </li>
           <li>
-            <h3>Septembre 2022 - Actuellement</h3>Architecte pour un projet interne Docaposte sur de la métrologie à haut volumes
+            <h3>Septembre 2022 - Décembre 2023</h3>Architecte pour un projet interne Docaposte sur de la métrologie à haut volumes
             <ul>
               <li>Étude de cadrage de la sécurité de l'information dans le contexte Docaposte (ISO-27001, RGPD, Cloud souverain)</li>
               <li>Environnement: Ubuntu, Openshift/Kubernetes, Rancher Kubernetes Engine, Apache Pulsar, ArrangoDB, Nest.js</li>
