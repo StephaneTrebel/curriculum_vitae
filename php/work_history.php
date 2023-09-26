@@ -220,6 +220,15 @@
     </ul>
   </section>
 
+  <section class="publications">
+    <h1>Publications Publiques</h1>
+    <ul>
+      <li>Un ensemble de trois articles sur Cilium (Partie <a href="https://blog.wescale.fr/introduction_a_cilium">1</a>, <a href="https://blog.wescale.fr/cilium-cni-deep-dive-politiques-r%C3%A9seaux">2</a> et <a href="https://blog.wescale.fr/cilium-cni-deep-dive-usages-avanc%C3%A9s">3</a>)</li>
+      <li>Une conférence sur <a href="https://www.pulumi.com/">Pulumi</a>, disponible sur <a href="https://www.youtube.com/watch?v=oWOCdI5HFsQ&pp=ygUVY2xvdWQgc3VkIDIwMjMgcHVsdW1p">Youtube</a></li>
+    </ul>
+  </section>
+
+
   <section class="formation">
     <h1>Formations</h1>
     <ul>
