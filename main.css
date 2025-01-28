@@ -1,172 +1,214 @@
 body {
-     background-color: #fcfcfc;
-     font-family: "Arial", "Liberation Sans", sans serif;
-     font-size: 1.2rem;
-     font-weight: 400;
-     margin: 0;
+  background-color: #fcfcfc;
+  font-family: "Arial", "Liberation Sans", sans serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0;
 }
- .main_content {
-     width: 1000px;
-     margin: auto;
-     margin-top: 10px;
-     margin-bottom: 50px;
-     color: #333333;
-     background-color: #fcfcfc;
-     text-align: justify;
-     line-height: 1.8rem;
+
+.main_content {
+  width: 1000px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  color: #333333;
+  background-color: #fcfcfc;
+  text-align: justify;
+  line-height: 1.8rem;
 }
- @media (max-width: 999px) {
-     .main_content {
-         width: 750px;
-         font-size: 0.96rem;
-    }
+
+@media (max-width: 999px) {
+  .main_content {
+    width: 750px;
+    font-size: 0.96rem;
+  }
+
 }
- @media print {
-     .main_content {
-         width: 100%;
-         font-size: 1.08rem;
-         line-height: 1.44rem;
-         margin: 0;
-         padding: 0;
-    }
+
+@media print {
+  .main_content {
+    width: 100%;
+    font-size: 1.08rem;
+    line-height: 1.44rem;
+    margin: 0;
+    padding: 0;
+  }
+
 }
- .ib {
-     display: inline-block;
-     vertical-align: top;
+
+.ib {
+  display: inline-block;
+  vertical-align: top;
 }
- .hidden {
-     display: none;
+
+.hidden {
+  display: none;
 }
- header {
-     font-size: 1.8rem;
-     text-align: left;
-     height: 200px;
-     background-color: #03a9fc;
-     color: #fcfcfc;
+
+header {
+  font-size: 1.8rem;
+  text-align: left;
+  height: 200px;
+  background-color: #03a9fc;
+  color: #fcfcfc;
 }
- header h1 {
-     color: #fcfcfc;
-     font-size: 1.8rem;
+
+header h1 {
+  color: #fcfcfc;
+  font-size: 1.8rem;
 }
- header ul {
-     font-size: 1.2rem;
-     text-indent: -0.5rem;
-     margin-left: 0.5rem;
+
+header ul {
+  font-size: 1.2rem;
+  text-indent: -0.5rem;
+  margin-left: 0.5rem;
 }
- header section {
-     width: 1000px;
-     margin-left: auto;
-     margin-right: auto;
+
+header section {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
- @media (max-width: 999px) {
-     header section {
-         width: 750px;
-         font-size: 1rem;
-    }
+
+@media (max-width: 999px) {
+  header section {
+    width: 750px;
+    font-size: 1rem;
+  }
+
 }
- header a {
-     color: #0287ca;
-     text-decoration: none;
+
+header a {
+  color: #0287ca;
+  text-decoration: none;
 }
- header a:hover {
-     color: #fcfcfc;
-     transition: color 1s;
+
+header a:hover {
+  color: #fcfcfc;
+  transition: color 1s;
 }
- h1 {
-     font-size: 1.5rem;
-     color: #03a9fc;
+
+h1 {
+  font-size: 1.5rem;
+  color: #03a9fc;
 }
- h2 {
-     font-size: 1.4rem;
-     color: #03a9fc;
+
+h2 {
+  font-size: 1.4rem;
+  color: #03a9fc;
 }
- h2:after {
-     content: " :";
+
+h2:after {
+  content: " :";
 }
- footer {
-     width: inherit;
-     position: fixed;
-     bottom: 0;
-     text-align: center;
-     background-color: inherit;
-     z-index: 9999;
+
+footer {
+  width: inherit;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  background-color: inherit;
+  z-index: 9999;
 }
- @media print {
-     footer {
-         display: none;
-    }
+
+@media print {
+  footer {
+    display: none;
+  }
+
 }
- .top {
-     -ms-box-orient: horizontal;
-     display: -webkit-box;
-     display: -moz-box;
-     display: -ms-flexbox;
-     display: -moz-flex;
-     display: -webkit-flex;
-     display: flex;
-     -webkit-justify-content: space-around;
-     justify-content: space-around;
-     -webkit-flex-flow: row wrap;
-     flex-flow: row wrap;
-     -webkit-align-items: stretch;
-     align-items: stretch;
+
+.top {
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-align-items: stretch;
+  align-items: stretch;
 }
- .top .infos {
-     flex: 1;
+
+.top .infos {
+  flex: 1;
 }
- .top .infos h1 {
-     margin-top: 0;
+
+.top .infos h1 {
+  margin-top: 0;
 }
- .top_bar {
-     width: 100%;
-     height: 40px;
-     background-color: #0287ca;
-     color: #fcfcfc;
+
+.top_bar {
+  width: 100%;
+  height: 40px;
+  background-color: #0287ca;
+  color: #fcfcfc;
 }
- .profil {
-     background-color: white;
-     width: 156px;
-     height: 156px;
-     line-height: 153px;
-     text-align: center;
+
+.profil {
+  background-color: white;
+  width: 156px;
+  height: 156px;
+  line-height: 153px;
+  text-align: center;
 }
- .profil img {
-     vertical-align: middle;
+
+.profil img {
+  width: 150px;
+  height: 150px;
+  vertical-align: middle;
 }
- .profil:hover {
-     background-color: #35bafd;
-     transition: background-color 2s;
+
+.profil:hover {
+  background-color: #35bafd;
+  transition: background-color 2s;
 }
- .infos > ul {
-     list-style-type: none;
+
+.infos > ul {
+  list-style-type: none;
 }
- .keyword {
-     color: #35bafd;
+
+.keyword {
+  color: #35bafd;
 }
- .wrapper {
-     border: 2.5px solid #35bafd;
-     padding-left: 2.5%;
-     padding-right: 2.5%;
+
+.wrapper {
+  border: 2.5px solid #35bafd;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
 }
- .inactive {
-     color: #35bafd;
-     background-color: #cdeefe;
+
+.inactive {
+  color: #35bafd;
+  background-color: #cdeefe;
 }
- .inactive a {
-     color: inherit;
-     background-color: inherit;
+
+.inactive a {
+  color: inherit;
+  background-color: inherit;
 }
- @media print {
-     .inactive {
-         display: none;
-    }
+
+@media print {
+  .inactive {
+    display: none;
+  }
+
 }
- .active {
-     color: #fcfcfc;
-     background-color: #35bafd;
+
+.active {
+  color: #fcfcfc;
+  background-color: #35bafd;
 }
- .active a {
-     color: inherit;
-     background-color: inherit;
+
+.active a {
+  color: inherit;
+  background-color: inherit;
 }
- 
+
+ul.no-list {
+ list-style: none;
+}
