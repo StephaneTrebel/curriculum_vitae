@@ -7,7 +7,8 @@
         Consultant Technique chez <strong>WeScale</strong>
         <ul>
           <li>
-            <h3>Janvier 2023 - Actuellement</h3>Contributeur interne WeScale
+            <h3>Janvier 2023 - Actuellement</h3>
+            Contributeur interne WeScale
             <ul>
               <li>Articles de blogs, notamment sur Cilium</li>
               <li>Conférences internes/externes, sur Pulumi, Telegraf</li>
@@ -15,7 +16,32 @@
             </ul>
           </li>
           <li>
-            <h3>Avril 2023 - Septembre 2023</h3>Tech Lead IoT pour Véolia
+            <h3>Septembre 2024 - Janvier 2025</h3>
+            Platform Engineering Builder pour Saint-Gobain Distribution et Bâtiments de France
+            <ul>
+              <li>Contribution à une équipe "Fabrik" de WeScale pour Saint-Gobain</li>
+              <li>Création d'une plateforme d'hébergement des applications SGDBF dans un environnement CaaS Azure (ACA)</li>
+            </ul>
+          </li>
+          <li>
+            <h3>Mai 2024 - Septembre 2024</h3>
+            Architecte solutions pour Owkin Diagnostics
+            <ul>
+              <li>Suivi des chantiers de mise en place de la solution interne chez certains clients</li>
+              <li>Définition d'une offre produit Cloud/OnPremises qui soit cohérente avec les exigences clients et les contraintes Owkin</li>
+            </ul>
+          </li>
+          <li>
+            <h3>Septembre 2023 - Mai 2024</h3>
+            Acculturation DevOps chez Showroomprivé
+            <ul>
+              <li>Définition d'une feuille de route DevOps pour la DSI</li>
+              <li>Suivi des chantiers de mise en place de Kubernetes, CI/CD, et amélioration de l'expérience développeur</li>
+            </ul>
+          </li>
+          <li>
+            <h3>Avril 2023 - Septembre 2023</h3>
+            Tech Lead IoT pour Véolia
             <ul>
               <li>Responsable du cadrage technique d'une solution de Data@Edge au sein de la Data Factory Véolia</li>
               <li>Environnement: AWS IoT Greengrass, InfluxData Telegraf, GCP PubSub, Ubuntu/Debian/Raspbian, Python, Bash, Gitlab CI</li>
