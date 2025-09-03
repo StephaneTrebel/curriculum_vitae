@@ -7,7 +7,7 @@ body {
 }
 
 .main_content {
-  width: 1000px;
+  width: 80%;
   margin: auto;
   margin-top: 10px;
   margin-bottom: 50px;
@@ -17,13 +17,13 @@ body {
   line-height: 1.8rem;
 }
 
-@media (max-width: 999px) {
-  .main_content {
-    width: 750px;
-    font-size: 0.96rem;
-  }
+/* @media (max-width: 999px) { */
+  /* .main_content { */
+    /* [> width: 750px; <] */
+    /* font-size: 0.96rem; */
+  /* } */
 
-}
+/* } */
 
 @media print {
   .main_content {
@@ -47,8 +47,6 @@ body {
 
 header {
   font-size: 1.8rem;
-  text-align: left;
-  height: 200px;
   background-color: #03a9fc;
   color: #fcfcfc;
 }
