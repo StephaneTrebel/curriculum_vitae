@@ -193,4 +193,29 @@ ul.no-list {
   list-style: none;
 }
 
+/* For animating the arrow on 
+           click of details element */
+details[open] > summary:before {
+  transform: rotate(90deg);
+}
+
+/* Removing the default arrow */
+summary {
+  display: block;
+  position: relative;
+  font-size: 20px;
+  left: 20px;
+}
+
+/* designing the arrow */
+summary:before {
+  content: '';
+  border: 5px solid;
+  border-color: transparent transparent transparent black;
+  position: absolute;
+  left: -20px;
+  top: 8px;
+  transition: all 0.4s;
+}
+
 /******************** *** ********************/
