@@ -1,6 +1,6 @@
 == curriculum_vitae
 
-My resume as a PHP webapp
+My resume as a single HTML file 😁
 
 Can be seen https://raw.githack.com/StephaneTrebel/curriculum_vitae/trunk/index.html[here] !
 
